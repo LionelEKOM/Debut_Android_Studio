@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test2</string>
+    <string name="valeur1">valeur 1</string>
+    <string name="valeur2">valeur 2</string>
+    <string name="resultat">resultat</string>
+    <string name="produit">*</string>
+    <string name="division">/</string>
+    <string name="inter">interface</string>
+    <string name="erreur_division_par_z_ro">Erreur : Division par zéro</string>
+</resources>
