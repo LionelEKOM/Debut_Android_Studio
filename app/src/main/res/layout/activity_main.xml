@@ -6,12 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:padding="25dp"
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/myImage"
         android:layout_width="155dp"
         android:layout_height="100dp"
-
+        android:src="@drawable/dior"
+        android:background=""
         />
 
     <TextView
@@ -55,7 +58,8 @@
         android:text="@string/resultat"
         android:textAlignment="center"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        />
     <Button
         android:id="@+id/buttonProduit"
         android:layout_width="250dp"
